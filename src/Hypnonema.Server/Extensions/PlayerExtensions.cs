@@ -14,7 +14,7 @@
 
         public static bool IsAceAllowed(this Player p, string ace)
         {
-            return API.IsPlayerAceAllowed(p.Handle, ace);
+            return API.IsPlayerAceAllowed(p.Handle, ace) || API.GetConvarInt("sv_fxdkMode", 0) == 1;
         }
     }
 }
