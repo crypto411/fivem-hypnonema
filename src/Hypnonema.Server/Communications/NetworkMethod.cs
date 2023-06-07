@@ -71,8 +71,10 @@
             if (target != null)
                 BaseScript.TriggerClientEvent(target, "hyp:S2C:" + this.EventName, args);
             else
+            {
                 BaseScript.TriggerClientEvent("hyp:S2C:" + this.EventName, args);
-            BaseScript.TriggerEvent("hyp:S2S:" + this.EventName, args, target);
+                BaseScript.TriggerEvent("hyp:S2S:" + this.EventName, args);
+            }
         }
     }
 
