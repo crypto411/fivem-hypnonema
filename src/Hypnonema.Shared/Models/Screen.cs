@@ -33,7 +33,7 @@
                                        SoundMinDistance = 30f
                                    },
                            Is3DRendered = true,
-                           Name = "Hypnonema Example Screen",
+                           Name = "Del Pierro Beach",
                            PositionalSettings = new PositionSettings
                                                     {
                                                         PositionX = -1678.949f,
